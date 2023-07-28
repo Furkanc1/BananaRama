@@ -34,18 +34,18 @@ body {
 
 .header div ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 55px;
 }
-
+/* GIVES HEADER TEXT UNDER <a> COLOR + OPTIONAL TEXT-DECORATION) */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* GIVES <p> A FONTSIZE VALUE THROUGHOUT THE WHOLE CODE */
 p {
     font-size: 21px;
 }
-
+/* DETEMINES SIZE OF BACKROUND IMAGE USED ON WEBPAGE */
 .hero {
     height: 900px;
     width: 100%;
@@ -55,22 +55,24 @@ p {
     background-position: center;
 }
 
+/* USED TO FLOAT SOMETHING TO THE LEFT BY THE LAYED OUT PARAMTERS */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* USED TO FLOAT SOMETHING TO THE RIGHT BY THE LAYED OUT PARAMTERS */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* DETERMINES CONTENT BOXES DISPLAY ACCORDING TO THE BROWSER
+(KEEPS THE BOXES FROM GOING OFF SCREEN + INTERSECTING WITH RIGHT HAND CARD) */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* DETERMINES BOX ON RIGHTS PARAMETERS INCLUDING (SIZE, SHAPE, LOCATION +FONT) */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -82,22 +84,29 @@ p {
     background-color: #2589bd;
 }
 
+/* DELETED DUPLICATE CODE, RENAMED THE DUPLICATE CODE "aspect" 
+AND APPLIED THE CHANGES TO HTML AS NEEDED */
+
 .benefit-aspect {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* 
+-   DETERMINES SPACING BETWEEN TITLE AND TEXT+IMAGE ON RIGHT HAND SIDE BOX  */
 .benefit-aspect h2 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* DETERMINES HOW IMAGES ARE DISPLAYED ON WEBPAGE (SIZE, SHAPE) */
 .benefit-aspect img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* 
+-   CHANGED "SEARCH-ENGINE-OPTIMIZATION" TO CATEGORY-TITLE
+-   DELETED THE REPEATING CODE
+-   RENAMED THE CLASS= IN THE HTML FILE TO MATCH MY SYLE.CSS INPUTS */
 .category-title {
     margin-bottom: 20px;
     padding: 50px;
@@ -106,23 +115,26 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* 
+-   GIVES A HEIGHT VALUE TO IMAGES WITHIN THE BOXES */
 .category-title img {
     max-height: 200px;
 }
-
+/* DETERMINES CARD HEADERS FONT SIZE + MARGIN */
 .category-title h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* 
+-   DEFINES SPACING BETWEEN FOOTER AND BODY
+-   DETERMINES FONT AND TEXT ALLIGNMENT OF FOOTER */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* DEFINES FONT SIZE OF VERY CREDITS TEXT */
 .footer h2 {
     font-size: 20px;
 }
